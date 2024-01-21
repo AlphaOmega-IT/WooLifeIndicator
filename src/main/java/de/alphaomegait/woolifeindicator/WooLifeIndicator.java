@@ -38,7 +38,7 @@ public class WooLifeIndicator extends JavaPlugin implements IConfigPathsProvider
 			configPath -> {
 				this.saveResource(
 					configPath, // Configuration file path
-					true // Replace existing file
+					false // Replace existing file
 				);
 				this.logger.info("Config file created: " + configPath);
 			});
