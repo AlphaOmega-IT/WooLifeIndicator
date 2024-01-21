@@ -1,0 +1,33 @@
+# This file contains the configuration settings for the life indicator of entities.
+# It is loaded by the 'woolifeindicator' plugin.
+# For more information, see: https://wiki.atwoo.eu/life-indicator/ //TODO
+# For more information, see: https://github.com/AlphaOmega-IT/LifeIndicator
+
+# Commands
+commands:
+  life-indicator:
+    name: 'life-indicator'
+    aliases:
+      - 'li'
+      - 'lifeindicator'
+      - 'health-bar'
+      - 'healthbar'
+      - 'hb'
+    description: 'Settings for the life indicator of entities'
+    usage: '/life-indicator'
+    argumentUsages:
+      1$: 'lut["prefix"] & "<gray>/" & alias & ""'
+    errorMessages:
+      playerNotOnline$: 'lut["prefix"] & "&7The player &c" & value & " &7is &cnot online"'
+      internalError$: 'lut["prefix"] & "&4An internal error occurred"'
+
+# Permissions for the commands
+permissions:
+  missingMessage$: 'lut["prefix"] & "You\sre lacking the permission: " & permission'
+  nodes:
+    lifeIndicatorAdmin: 'woolifeindicator.lifeindicator.admin'
+    seeOthersLifeIndicator: 'woolifeindicator.lifeindicator.visible.players'
+
+# Prefix for the messages
+lut:
+  prefix: '<gray>[<gold>LifeIndicator<gray>] '

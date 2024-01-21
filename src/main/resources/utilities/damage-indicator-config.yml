@@ -1,0 +1,49 @@
+# This file contains the configuration settings for the life indicator of entities.
+# It is loaded by the 'woolifeindicator' plugin.
+# For more information, see: https://wiki.atwoo.eu/life-indicator/ //TODO
+# For more information, see: https://github.com/AlphaOmega-IT/LifeIndicator
+
+damage-indicator:
+  
+  # World blacklist, where the damage indicator will not be shown
+  blockedWorlds:
+    - 'world_nether'
+
+  # Entity blacklist, where the damage indicator will not be shown
+  blockedEntities:
+    - 'enderman'
+
+  # How long the damage indicator should be visible
+  fadeOutTime: 5
+  
+  # Show the damage indicator of players underneath their nametags
+  showLifeIndicatorOfPlayers: true
+  
+  # Damage indicator design
+  # Possible values: Simple, Complex (Experimental)
+  damageIndicatorDesign: 'Simple'
+  
+  # Damage indicators for different damages (if left empty, the damage indicator will show the default design)
+  # Simple cause the damage to be a number between 0 and max_health
+  # Complex cause the damage to be shown as hearts
+  damageIndicators:
+    - 0:  '<dark_red>❥</dark_red>'
+    - 1:  '<dark_red>❤</dark_red>'
+    - 2:  '<dark_red>❤❥</dark_red>'
+    - 3:  '<dark_red>❤❤</dark_red>'
+    - 4:  '<dark_red>❤❤❥</dark_red>'
+    - 5:  '<red>❤❤❤</red>'
+    - 6:  '<red>❤❤❤❥</red>'
+    - 7:  '<red>❤❤❤❤</red>'
+    - 8:  '<red>❤❤❤❤❥</red>'
+    - 9:  '<gold>❤❤❤❤❤</gold>'
+    - 10: '<gold>❤❤❤❤❤❥</gold>'
+    - 11: '<gold>❤❤❤❤❤❤</gold>'
+    - 12: '<gold>❤❤❤❤❤❤❥</gold>'
+    - 13: '<yellow>❤❤❤❤❤❤❤</yellow>'
+    - 14: '<yellow>❤❤❤❤❤❤❤❥</yellow>'
+    - 15: '<yellow>❤❤❤❤❤❤❤❤</yellow>'
+    - 16: '<yellow>❤❤❤❤❤❤❤❤❥</yellow>'
+    - 17: '<green>❤❤❤❤❤❤❤❤❤</green>'
+    - 18: '<green>❤❤❤❤❤❤❤❤❤❥</green>'
+    - 19: '<green>❤❤❤❤❤❤❤❤❤❤</green>'

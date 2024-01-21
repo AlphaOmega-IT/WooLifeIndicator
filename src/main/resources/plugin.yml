@@ -1,0 +1,6 @@
+name: WooLifeIndicator
+version: 1.0
+main: de.alphaomegait.woolifeindicator.WooLifeIndicator
+author: AlphaOmega-IT
+website: https://alphaomega-it.de
+api-version: 1.20
