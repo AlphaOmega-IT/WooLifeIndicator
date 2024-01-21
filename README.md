@@ -22,6 +22,7 @@ this plugin. You can even design your health bar depending on the entity's healt
 
 ### STEP 1: Download the actual plugin
 To integrate WooLifeIndicator into your server, download this plugin on the SpigotMC page or our website.
+You can also download it from the GitHub itself: https://github.com/AlphaOmega-IT/WooLifeIndicator/releases/tag/PreRelease
 
 ### STEP 2: Start your server
 Start your server, every file will be generated after the first start, edit your files freely after.
