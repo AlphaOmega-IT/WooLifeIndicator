@@ -3,7 +3,6 @@ package de.alphaomegait.woolifeindicator;
 import de.alphaomegait.woolifeindicator.commands.LifeIndicator;
 import de.alphaomegait.woolifeindicator.listener.DamageIndicatorListener;
 import de.alphaomegait.woolifeindicator.listener.OnScoreboardCheck;
-import lombok.Getter;
 import me.blvckbytes.autowirer.AutoWirer;
 import me.blvckbytes.bukkitboilerplate.PluginFileHandler;
 import me.blvckbytes.bukkitevaluable.ConfigManager;
@@ -17,7 +16,6 @@ import java.util.Arrays;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-@Getter
 public class WooLifeIndicator extends JavaPlugin implements IConfigPathsProvider {
 
 	private final Logger logger = Logger.getLogger(this.getName());
